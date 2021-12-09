@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="/src/index.css" />
+    <script src="/src/index.js"></script>
+    
+    <link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous"
+/>
+    <!-- <title>React App</title> -->
+    <title>WT Project</title>
+  </head>
+  <body>
+    <nav
+      id="mainNavbar"
+      class="navbar navbar-dark navbar-expand-md py-0 fixed-top"
+    >
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand" style="color: rgb(255, 153, 0)">Atomic Heroes</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navLinks"
+          aria-label="Toggle navigation"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          >
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+          <ul class="navbar-nav" style="margin-left: 1050px;">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link text-reset">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link text-reset">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a href="http://localhost:8080/" class="nav-link text-reset">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      <div id="marvel">
+        <a href="#marveldiv"><button class="buttonm">Click Here for Marvel Merch</button></a>
+      </div>
+      <hr>
+      <div id="dc">
+        <a href="#dcdiv"><button class="buttond">Click Here for DC Merch</button></a>
+      </div>
+      </div>
+    <div id="marveldiv"></div>
+    <hr>
+    <div id="dcdiv"></div>
+    <div id="about">
+      <h1 style="text-align: center; color: #161853;">About Section</h1>
+      <hr>
+      <p style="font-weight: 500; font-size: large; line-height: 200%;">Hello there,
+
+        Since you’re here, we take it you’re interested in getting to know us. Well, let’s begin.
+        
+        We at Atomic Heroes are just a group of guys who've been fans of superheroes since the old days. And now we aim to bring you a curation of what we think is some of the best merch we think is out there. The products we show on our site are in no way sponsored and the reviews are not biased, they are simply our own. Disclaimer: We do not claim the rights to any of the products that we display on our site. We are just looking to help like minded find quality superhero merchandise through us. See you soon.
+      </p>
+    </div>
+    <div id="contact">
+      <h1 style="text-align: center; color: #D1F4FA;">Contact Section</h1>
+      <hr>
+      <p style="margin-left: 20px;">
+        Contact Info: +91 (2135 2345 09)
+        <br>
+        Email Info: merchstore@gmail.com
+      </p>
+      <span style="margin-left: 20px;">Please write down your complaints in the text area provided and we will try to get back to you at the earliest.</span>
+      <span>Any suggestions about the website are also greatly appreciated.</span>
+      <br>
+      <form action="http://localhost:3000/infoAdded" style="margin-left: 20px;" method="POST">
+        <label for="Name">Name</label>
+        <input type="text" style="margin-left: 30px; background-color: #D1F4FA;" name="Name">
+        <br>
+        <label for="emailId">Email ID</label>
+        <input type="email" name="" id="" style="margin-left: 13px; background-color: #D1F4FA;" name="emailId">
+        <br>
+        <br>
+        <label for="query">Please leave your feedback in the given space.</label>
+        <br>
+        <textarea name="" id="" cols="30" rows="10" style="background-color: #D1F4FA;" name="query"></textarea>
+        <br>
+        <!-- <input type="checkbox" name="" id="">
+        <label for="">I Agree that I am above 13 Years of age.</label>
+        <br> -->
+        <button type="button" class="btn btn-primary">Submit</button>
+      </form>
+      <br>
+    </div>
+      <footer>Copyright &copy; 2021 <span style="margin-left: 1150px;">Designed by Kushal and Kevin</span></footer>
+  </body>
+</html>
