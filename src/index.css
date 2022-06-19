@@ -1,13 +1,201 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+    background-color: black;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 300;
+    color: white;
+  }
+  .navbar-brand {
+    color: #ea1c2c;
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  #mainNavbar.nav-link {
+    color: rgb(145, 145, 145);
+    background-color: black;
+  }
+  .navbar-brand {
+    color: #ea1c2c;
+  }
+  .nav-link:hover {
+    color: #ea1c2c;
+    background-color: rgba(255, 0, 0, 0.76)
+  }
+  @media (max-width: 1200px) {
+    h2 {
+      font-size: 3rem;
+    }
+  }
+  .blurb h2 {
+    color: white;
+    font-weight: 300;
+    font-size: 2.5rem;
+  }
+  .blurb p {
+    color: #ff4083;
+    line-height: 2;
+    font-weight: 400;
+  }
+  .content {
+    margin-top: 100px;
+  }
+  .navbar-dark navbar-toggler {
+    color: black;
+  }
+  #mainNavbar:hover {
+    background-color: rgba(255, 33, 4, 0.555);
+    transition: all 1s;
+  }
+  #mainNavbar {
+      background-color: black;
+    transition: all 1s;
+  }
+#marvel{
+    background-image: url(./pictures/marvel1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 900px; */
+    /* height: 20%; */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
+#dc{
+    background-image: url(./pictures/WhatsApp\ Image\ 2021-12-07\ at\ 7.03.00\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 900px; */
+    /* height: 50%; */
+}
+  .buttonm {
+    background-color: rgba(0, 0, 0, 0);
+    color: #f58822;
+    border: 2px solid #f58822;
+    margin-top: 825px;
+    margin-left: 650px;
+    padding: 1.5rem;
+    font-family: fantasy;
+    font-size: larger;
+    transition: all 500ms;
+  }
+  .buttonm:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #e20f0f;
+    border: 2px solid #aa0000;
+    box-shadow: 0em 1.5em 2.5em -0.6em #ff0000;
+    transform: translateY(-20px);
+    /* transition: all 500ms; */
+    cursor: pointer;
+  }
+  .buttond{
+    background-color: rgba(0, 0, 0, 0);
+    color: #5ef522;
+    border: 2px solid #53f522;
+    padding: 1.5rem;
+    font-family: fantasy;
+    margin-top: 800px;
+    margin-left: 650px;
+    font-size: larger;
+    transition: all 500ms;
+  }
+  .buttond:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #0fb1e2;
+    border: 2px solid #006daa;
+    box-shadow: 0em 1.5em 2.5em -0.6em #00c3ff;
+    transform: translateY(-20px);
+    cursor: pointer;
+  }
+  #about{
+    background-color:#D1F4FA ;
+    color: #161853;
+  }
+  #contact{
+    background-color:#161853 ;
+    color: #D1F4FA;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 1.6rem;
+    margin-bottom: 1rem;
+    border-bottom: white solid 2px;
+    color: #fff;
+    line-height: 1.2;
+  }
+  .dictionary {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 4rem auto;
+    max-width: 90%;
+  }
+  
+  .dictionary > .term {
+    text-align: center;
+    max-width: 20rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: all 300ms ease-in-out;
+  }
+
+  .dictionary > .term:hover {
+    transform: translateY(-20px);
+  }
+  
+  .dictionary > .term > dt {
+    margin-bottom: 1rem;
+  }
+  
+  dt {
+    color: #008172;
+    line-height: 1;
+  }
+  
+  dt span {
+    font-size: 200%;
+    font-weight: 900;
+  }
+  dd {
+    font-size: 92.5%;
+    margin-left: 0;
+    color:black
+  }
+  
+  dd dt {
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+    font-size: inherit;
+  }
+  
+  dd dl {
+    font-size: 90%;
+    margin: 1rem auto 0 auto;
+    letter-spacing: 0.33px;
+    max-width: 15rem;
+  }
+  
+  dd dl .term {
+    margin-bottom: 1rem;
+  }
+  img{
+    width: 130px;
+    height: 130px;
+  }
+  .dHead{
+    color: rgb(21, 255, 0);
+  }
+  .mHead{
+    color: rgb(255, 8, 0);
+  }
+  #marveldiv{
+    background-image: linear-gradient(to bottom right, rgb(255, 187, 0), rgb(199, 30, 30));
+  }
+  #dcdiv{
+    background-image: linear-gradient(to bottom right, green, aqua);
+  }
+  .dictionary > .term{
+    background-color: rgba(233, 183, 19, 0.5);
+  }
